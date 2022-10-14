@@ -8,6 +8,7 @@ public class Main2 {
 
         System.out.println("Array size is: " + words.length);
 
+//      ყველაზე მოკლე სიტყვა
         String shortest = words[0];
         for(int i = 0; i < words.length;i++){
             if(words[i].length()<= shortest.length()){
